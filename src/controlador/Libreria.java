@@ -35,9 +35,9 @@ public class Libreria {
 
         if (!libros.containsKey(l.getKey())) {
             libros.put(l.getKey(),l);
-            JOptionPane.showMessageDialog(null, "Videojuego anadido correctamente");
+            JOptionPane.showMessageDialog(null, "Libro anadido correctamente");
         } else {
-            JOptionPane.showMessageDialog(null, "Videojuego ya registrado");
+            JOptionPane.showMessageDialog(null, "Libro ya registrado");
         }
 
     }
@@ -46,9 +46,9 @@ public class Libreria {
     
         if (libros.containsKey(key)) {
             libros.remove(key);
-            JOptionPane.showMessageDialog(null, "Videojuego eliminado correctamente");
+            JOptionPane.showMessageDialog(null, "Libro eliminado correctamente");
         } else {
-            JOptionPane.showMessageDialog(null, "Videojuego no registrado");
+            JOptionPane.showMessageDialog(null, "Libro no registrado");
         }
     }
     
@@ -56,9 +56,9 @@ public class Libreria {
 
         if (libros.containsKey(l.getKey())) {
             libros.put(l.getKey(),l);
-            JOptionPane.showMessageDialog(null, "Videojuego actualizado correctamente");
+            JOptionPane.showMessageDialog(null, "Libro actualizado correctamente");
         } else {
-            JOptionPane.showMessageDialog(null, "Videojuego no registrado");
+            JOptionPane.showMessageDialog(null, "Libro no registrado");
         }
 
     }
